@@ -1,4 +1,4 @@
-# JS Advanced Lesson 4 Homework Temperature Converter
+# JS Advanced Lesson 4 Homework Task_3
 Задание : 
 Создайте конвертер температуры между Цельсием, Фаренгейтом и Кельвином. 
 Пользователь вводит значение и выбирает из какой шкалы в какую нужно перевести. 
