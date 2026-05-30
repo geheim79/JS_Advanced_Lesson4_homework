@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!--Цельсий на Фаренгейт-->
+    <input id="inputCelcius" type="number" placeholder="Цельсий" oninput="fromCtoFConverter(this.value)" onchange="fromCtoFConverter(this.value)">
+</p>
+<p>Фаренгейт: <span id="outputFahrenheit"></span></p>
+
+<!--Цельсия в Кельвин-->
+    <input id="inputCelcius" type="number" placeholder="Цельсий" oninput="fromCtoKConverter(this.value)" onchange="fromCtoKConverter(this.value)">
+</p>
+<p>Кельвин: <span id="outputKelvin"></span></p>
+
+  <!-- на френгейт на Цельсий -->
+    <input id="inputFahrenheit" type="number" placeholder="Фаренгейт" oninput="fromFtoCConverter(this.value)" onchange="fromFtoCConverter(this.value)">
+</p>
+<p>Цельсий: <span id="outputCelcius"></span></p>
+
+
+<script src="./Main2.js">
+  
+// function temperatureConverter(valNum) {
+//   valNum = parseFloat(valNum);
+//   document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+// }
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
